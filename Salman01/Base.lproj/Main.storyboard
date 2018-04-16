@@ -18,14 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGG-hK-5gX">
-                                <rect key="frame" x="92" y="563" width="162" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="λίγα λόγια για τα όνειρα"/>
-                                <connections>
-                                    <segue destination="RkP-lr-fXS" kind="show" id="UrP-2F-HVh"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ergosoft 2018" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d4e-TZ-zAN">
                                 <rect key="frame" x="112" y="740" width="150" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -49,6 +41,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGG-hK-5gX">
+                                <rect key="frame" x="98" y="610" width="162" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="λίγα λόγια για τα όνειρα"/>
+                                <connections>
+                                    <segue destination="RkP-lr-fXS" kind="show" id="UrP-2F-HVh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -56,7 +56,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
+            <point key="canvasLocation" x="117.59999999999999" y="118.22660098522168"/>
         </scene>
         <!--Details View Controller-->
         <scene sceneID="rya-dY-OR5">
@@ -70,7 +70,7 @@
                                 <rect key="frame" x="29" y="118" width="317" height="528"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Τα όνειρα που βλέπουμε στον ύπνο μας δεν μπορούμε να τα θυμηθούμε όλα. Αυτά όμως που θυμόμαστε είναι και τα σπουδαιότερα, με την μεγαλύτερη σημασία, και πρέπει να προσπαθήσουμε να τα εξηγήσουμε. Απο τα όνειρα που βλέπουμε, εκείνα που είναι έγχρωμα και έντονα είναι τα σημαντικότερα. Τα πιο χαρακτηριστηκά όνειρα τα βλέπουμε τις πρωινές ώρες λίγο πριν ξυπνήσουμε.</mutableString>
+                                <string key="text">Τα όνειρα που βλέπουμε στον ύπνο μας δεν μπορούμε να τα θυμηθούμε όλα. Αυτά όμως που θυμόμαστε είναι και τα σπουδαιότερα, με την μεγαλύτερη σημασία, και πρέπει να προσπαθήσουμε να τα εξηγήσουμε. Απο τα όνειρα που βλέπουμε, εκείνα που είναι έγχρωμα και έντονα είναι τα σημαντικότερα. Τα πιο χαρακτηριστηκά όνειρα τα βλέπουμε τις πρωινές ώρες λίγο πριν ξυπνήσουμε.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -104,6 +104,44 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hw4-hL-q4t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="896.79999999999995" y="128.57142857142858"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gSP-ba-7BM">
+            <objects>
+                <viewController id="tOy-jp-dLY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J0Q-9J-q3A">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="νέος ονειροκρίτης " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWd-5q-9tH">
+                                <rect key="frame" x="12" y="44" width="335" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ergosoft 2018" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ww-cd-wZm">
+                                <rect key="frame" x="112" y="740" width="150" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="three gears" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cbw-jO-upP">
+                                <rect key="frame" x="91" y="196" width="193" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="nhT-no-7wr"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7E8-t5-DG7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="896.79999999999995" y="801.72413793103453"/>
         </scene>
     </scenes>
     <resources>
