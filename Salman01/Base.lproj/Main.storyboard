@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -26,32 +26,43 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="νέος ονειροκρίτης " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oy2-Fh-5BZ">
-                                <rect key="frame" x="12" y="44" width="335" height="61"/>
+                                <rect key="frame" x="20" y="44" width="339" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rfc-Jq-hc4">
-                                <rect key="frame" x="112" y="689" width="130" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Περί ονειροκρίτη..."/>
-                                <connections>
-                                    <segue destination="tOy-jp-dLY" kind="show" id="3KV-Yj-GkE"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGG-hK-5gX">
-                                <rect key="frame" x="96" y="641" width="162" height="30"/>
+                                <rect key="frame" x="96" y="644" width="162" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="λίγα λόγια για τα όνειρα"/>
                                 <connections>
                                     <segue destination="RkP-lr-fXS" kind="show" id="UrP-2F-HVh"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MainDream.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9av-PU-H5m">
-                                <rect key="frame" x="25" y="113" width="325" height="397"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dream.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9av-PU-H5m">
+                                <rect key="frame" x="20" y="135" width="334" height="432"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ssK-M5-Erq">
+                                <rect key="frame" x="96" y="600" width="162" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Ερμηνεία ονείρου"/>
+                                <connections>
+                                    <segue destination="yza-1o-GOw" kind="show" id="MeN-3I-UQQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rfc-Jq-hc4">
+                                <rect key="frame" x="85" y="689" width="185" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Περί ονειροκρίτη..."/>
+                                <connections>
+                                    <segue destination="tOy-jp-dLY" kind="show" id="3KV-Yj-GkE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -69,13 +80,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="νέος ονειροκρίτης " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csf-Ks-gFO">
-                                <rect key="frame" x="12" y="44" width="335" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ergosoft 2018" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dqK-Ve-A7m">
                                 <rect key="frame" x="112" y="740" width="150" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -83,22 +87,42 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Kw-w0-ldi">
-                                <rect key="frame" x="125" y="688" width="125" height="48"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHJ-RQ-MNb">
+                                <rect key="frame" x="30" y="134" width="317" height="533"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text" base64-UTF8="YES">
+zqTOsSDPjM69zrXOuc+BzrEgz4DOv8+FIM6yzrvOrc+Azr/Phc68zrUgz4PPhM6/zr0gz43PgM69zr8g
+zrzOsc+CIM60zrXOvSDOvM+Azr/Pgc6/z43OvM61IM69zrEgz4TOsSDOuM+FzrzOt864zr/Pjc68zrUg
+z4zOu86xLiDOkc+Fz4TOrCDPjM68z4nPgiDPgM6/z4UgzrjPhc68z4zOvM6xz4PPhM61IM61zq/Ovc6x
+zrkgzrrOsc65IM+EzrEgz4PPgM6/z4XOtM6xzrnPjM+EzrXPgc6xLCDOvM61IM+EzrfOvSDOvM61zrPO
+sc67z43PhM61z4HOtyDPg863zrzOsc+Dzq/OsSwgzrrOsc65IM+Az4HOrc+AzrXOuSDOvc6xIM+Az4HO
+v8+Dz4DOsc64zq7Pg86/z4XOvM61IM69zrEgz4TOsSDOtc6+zrfOs86uz4POv8+FzrzOtS4gzpHPgM6/
+IM+EzrEgz4zOvc61zrnPgc6xIM+Azr/PhSDOss67zq3PgM6/z4XOvM61LCDOtc66zrXOr869zrEgz4DO
+v8+FIM61zq/Ovc6xzrkgzq3Os8+Hz4HPic68zrEgzrrOsc65IM6tzr3PhM6/zr3OsSDOtc6vzr3Osc65
+IM+EzrEgz4POt868zrHOvc+EzrnOus+Mz4TOtc+BzrEuIM6kzrEgz4DOuc6/IM+HzrHPgc6xzrrPhM63
+z4HOuc+Dz4TOt866zqwgz4zOvc61zrnPgc6xIM+EzrEgzrLOu86tz4DOv8+FzrzOtSDPhM65z4Igz4DP
+gc+JzrnOvc6tz4Igz47Pgc61z4IgzrvOr86zzr8gz4DPgc65zr0gzr7Phc+Azr3Ors+Dzr/Phc68zrUu
+Aw
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="νέος ονειροκρίτης " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVD-5Y-FBm">
+                                <rect key="frame" x="20" y="44" width="339" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpK-e4-HjN">
+                                <rect key="frame" x="115" y="676" width="144" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="επιστροφή"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="AHk-bE-TBB"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Lxd-VP-Rbk"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHJ-RQ-MNb">
-                                <rect key="frame" x="29" y="205" width="317" height="165"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Τα όνειρα που βλέπουμε στον ύπνο μας δεν μπορούμε να τα θυμηθούμε όλα. Αυτά όμως που θυμόμαστε είναι και τα σπουδαιότερα, με την μεγαλύτερη σημασία, και πρέπει να προσπαθήσουμε να τα εξηγήσουμε. Απο τα όνειρα που βλέπουμε, εκείνα που είναι έγχρωμα και έντονα είναι τα σημαντικότερα. Τα πιο χαρακτηριστηκά όνειρα τα βλέπουμε τις πρωινές ώρες λίγο πριν ξυπνήσουμε.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="xpD-NL-ltw"/>
@@ -116,13 +140,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="νέος ονειροκρίτης " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWd-5q-9tH">
-                                <rect key="frame" x="12" y="44" width="335" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ergosoft 2018" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ww-cd-wZm">
                                 <rect key="frame" x="112" y="740" width="150" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -130,21 +147,25 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="three gears" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cbw-jO-upP">
-                                <rect key="frame" x="91" y="196" width="193" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="νέος ονειροκρίτης " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SN3-ze-BOL">
+                                <rect key="frame" x="20" y="44" width="339" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PIR-V6-DUO">
-                                <rect key="frame" x="125" y="688" width="125" height="48"/>
+                                <rect key="frame" x="115" y="676" width="144" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="επιστροφή"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="ymJ-qj-0R2"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="three gears.gif" translatesAutoresizingMaskIntoConstraints="NO" id="0Ng-MH-Su9">
+                                <rect key="frame" x="25" y="156" width="325" height="423"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="nhT-no-7wr"/>
@@ -152,13 +173,58 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7E8-t5-DG7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="118" y="862"/>
+            <point key="canvasLocation" x="117.59999999999999" y="861.57635467980299"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9Fa-7F-4yE">
+            <objects>
+                <viewController id="yza-1o-GOw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="D4D-bj-mM9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="νέος ονειροκρίτης " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcn-nR-yFS">
+                                <rect key="frame" x="20" y="44" width="339" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ergosoft 2018" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bc6-x4-Cpb">
+                                <rect key="frame" x="112" y="740" width="150" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lAk-Vm-Jen">
+                                <rect key="frame" x="115" y="676" width="144" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="επιστροφή"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="NPO-Hm-DD8"/>
+                                </connections>
+                            </button>
+                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xuv-kz-CPm">
+                                <rect key="frame" x="0.0" y="167" width="375" height="56"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="exX-Yk-qKv"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RpP-Xg-PUO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="877.60000000000002" y="859.35960591133005"/>
         </scene>
     </scenes>
     <resources>
-        <image name="MainDream.jpg" width="500" height="500"/>
+        <image name="dream.jpg" width="500" height="500"/>
+        <image name="three gears.gif" width="259" height="375"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="AHk-bE-TBB"/>
+        <segue reference="Lxd-VP-Rbk"/>
     </inferredMetricsTieBreakers>
 </document>
