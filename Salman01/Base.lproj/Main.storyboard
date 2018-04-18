@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -25,10 +25,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="art-child-dream-escape.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="S0X-kt-a41">
-                                <rect key="frame" x="24" y="135" width="323" height="387"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="νέος ονειροκρίτης " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oy2-Fh-5BZ">
                                 <rect key="frame" x="12" y="44" width="335" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -52,6 +48,10 @@
                                     <segue destination="RkP-lr-fXS" kind="show" id="UrP-2F-HVh"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MainDream.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9av-PU-H5m">
+                                <rect key="frame" x="25" y="113" width="325" height="397"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -69,14 +69,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MHJ-RQ-MNb">
-                                <rect key="frame" x="29" y="118" width="317" height="528"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Τα όνειρα που βλέπουμε στον ύπνο μας δεν μπορούμε να τα θυμηθούμε όλα. Αυτά όμως που θυμόμαστε είναι και τα σπουδαιότερα, με την μεγαλύτερη σημασία, και πρέπει να προσπαθήσουμε να τα εξηγήσουμε. Απο τα όνειρα που βλέπουμε, εκείνα που είναι έγχρωμα και έντονα είναι τα σημαντικότερα. Τα πιο χαρακτηριστηκά όνειρα τα βλέπουμε τις πρωινές ώρες λίγο πριν ξυπνήσουμε.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="νέος ονειροκρίτης " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csf-Ks-gFO">
                                 <rect key="frame" x="12" y="44" width="335" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -99,6 +91,14 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="AHk-bE-TBB"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHJ-RQ-MNb">
+                                <rect key="frame" x="29" y="205" width="317" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Τα όνειρα που βλέπουμε στον ύπνο μας δεν μπορούμε να τα θυμηθούμε όλα. Αυτά όμως που θυμόμαστε είναι και τα σπουδαιότερα, με την μεγαλύτερη σημασία, και πρέπει να προσπαθήσουμε να τα εξηγήσουμε. Απο τα όνειρα που βλέπουμε, εκείνα που είναι έγχρωμα και έντονα είναι τα σημαντικότερα. Τα πιο χαρακτηριστηκά όνειρα τα βλέπουμε τις πρωινές ώρες λίγο πριν ξυπνήσουμε.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="xpD-NL-ltw"/>
@@ -156,9 +156,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="art-child-dream-escape.jpg" width="500" height="500"/>
+        <image name="MainDream.jpg" width="500" height="500"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ymJ-qj-0R2"/>
+        <segue reference="AHk-bE-TBB"/>
     </inferredMetricsTieBreakers>
 </document>

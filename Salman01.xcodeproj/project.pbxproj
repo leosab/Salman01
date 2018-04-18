@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E68E880208232DC00B915A9 /* art-child-dream-escape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E68E87F208232DC00B915A9 /* art-child-dream-escape.jpg */; };
-		0E68E882208232F600B915A9 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 0E68E881208232F600B915A9 /* Images */; };
 		F4245596207FF56A00D26212 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4245595207FF56A00D26212 /* AppDelegate.swift */; };
 		F4245598207FF56A00D26212 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4245597207FF56A00D26212 /* ViewController.swift */; };
 		F424559B207FF56A00D26212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4245599207FF56A00D26212 /* Main.storyboard */; };
@@ -17,6 +15,8 @@
 		F42455AB207FF56A00D26212 /* Salman01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42455AA207FF56A00D26212 /* Salman01Tests.swift */; };
 		F42455B6207FF56A00D26212 /* Salman01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42455B5207FF56A00D26212 /* Salman01UITests.swift */; };
 		F42455C4207FFAA300D26212 /* oneirokritis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F42455C3207FFAA300D26212 /* oneirokritis.jpg */; };
+		F4613DBE20854EA900DC4FAA /* gear-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = F4613DBD20854EA900DC4FAA /* gear-hi.png */; };
+		F4B4CE452087DC01009B38D9 /* three gears.gif in Resources */ = {isa = PBXBuildFile; fileRef = F4B4CE442087DC00009B38D9 /* three gears.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E68E87F208232DC00B915A9 /* art-child-dream-escape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "art-child-dream-escape.jpg"; path = "../../../Desktop/art-child-dream-escape.jpg"; sourceTree = "<group>"; };
-		0E68E881208232F600B915A9 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = Salman01/Images; sourceTree = "<group>"; };
 		F4245592207FF56A00D26212 /* Salman01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Salman01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4245595207FF56A00D26212 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4245597207FF56A00D26212 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +51,9 @@
 		F42455B5207FF56A00D26212 /* Salman01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salman01UITests.swift; sourceTree = "<group>"; };
 		F42455B7207FF56A00D26212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F42455C3207FFAA300D26212 /* oneirokritis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oneirokritis.jpg; sourceTree = "<group>"; };
+		F4613DBD20854EA900DC4FAA /* gear-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear-hi.png"; sourceTree = "<group>"; };
+		F47009922087CCEB00B634F8 /* MainDream.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MainDream.jpg; sourceTree = "<group>"; };
+		F4B4CE442087DC00009B38D9 /* three gears.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "three gears.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +84,14 @@
 		F4245589207FF56A00D26212 = {
 			isa = PBXGroup;
 			children = (
+				F47009922087CCEB00B634F8 /* MainDream.jpg */,
+				F470098F2087CA6D00B634F8 /* Resources */,
 				F4245594207FF56A00D26212 /* Salman01 */,
 				F42455A9207FF56A00D26212 /* Salman01Tests */,
 				F42455B4207FF56A00D26212 /* Salman01UITests */,
 				F4245593207FF56A00D26212 /* Products */,
-				0E68E881208232F600B915A9 /* Images */,
-				0E68E87F208232DC00B915A9 /* art-child-dream-escape.jpg */,
+				F4613DBD20854EA900DC4FAA /* gear-hi.png */,
+				F4B4CE442087DC00009B38D9 /* three gears.gif */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +135,13 @@
 				F42455B7207FF56A00D26212 /* Info.plist */,
 			);
 			path = Salman01UITests;
+			sourceTree = "<group>";
+		};
+		F470098F2087CA6D00B634F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,12 +251,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E68E880208232DC00B915A9 /* art-child-dream-escape.jpg in Resources */,
 				F42455A0207FF56A00D26212 /* LaunchScreen.storyboard in Resources */,
 				F42455C4207FFAA300D26212 /* oneirokritis.jpg in Resources */,
+				F4613DBE20854EA900DC4FAA /* gear-hi.png in Resources */,
 				F424559D207FF56A00D26212 /* Assets.xcassets in Resources */,
-				0E68E882208232F600B915A9 /* Images in Resources */,
 				F424559B207FF56A00D26212 /* Main.storyboard in Resources */,
+				F4B4CE452087DC01009B38D9 /* three gears.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
