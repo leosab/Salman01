@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E056F4D2087E20800613827 /* dream.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E056F4C2087E20800613827 /* dream.jpg */; };
 		F4245596207FF56A00D26212 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4245595207FF56A00D26212 /* AppDelegate.swift */; };
 		F4245598207FF56A00D26212 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4245597207FF56A00D26212 /* ViewController.swift */; };
 		F424559B207FF56A00D26212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4245599207FF56A00D26212 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E056F4C2087E20800613827 /* dream.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dream.jpg; path = ../../Dokimi/dokimi01/dokimi01UITests/dream.jpg; sourceTree = "<group>"; };
 		F4245592207FF56A00D26212 /* Salman01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Salman01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4245595207FF56A00D26212 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4245597207FF56A00D26212 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 		F470098F2087CA6D00B634F8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0E056F4C2087E20800613827 /* dream.jpg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				F42455A0207FF56A00D26212 /* LaunchScreen.storyboard in Resources */,
 				F42455C4207FFAA300D26212 /* oneirokritis.jpg in Resources */,
 				F4613DBE20854EA900DC4FAA /* gear-hi.png in Resources */,
+				0E056F4D2087E20800613827 /* dream.jpg in Resources */,
 				F424559D207FF56A00D26212 /* Assets.xcassets in Resources */,
 				F424559B207FF56A00D26212 /* Main.storyboard in Resources */,
 				F4B4CE452087DC01009B38D9 /* three gears.gif in Resources */,
