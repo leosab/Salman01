@@ -48,7 +48,7 @@
                                     <segue destination="RkP-lr-fXS" kind="show" id="UrP-2F-HVh"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dream.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9av-PU-H5m">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MainDream.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9av-PU-H5m">
                                 <rect key="frame" x="25" y="113" width="325" height="397"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -156,7 +156,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="dream.jpg" width="500" height="500"/>
+        <image name="MainDream.jpg" width="500" height="500"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="AHk-bE-TBB"/>
